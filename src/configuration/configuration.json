@@ -5,7 +5,7 @@
       "val": {
         "category": "Programming & Scripting",
         "items": ["JavaScript (ES6+)", "Java", "HTML", "CSS"],
-        "level": [3, 2, 4, 1],
+        "level": [4, 4, 4, 3],
         "skillFruits": ["jss.png", "java.png", "html.png", "css.png"]
       }
     },
@@ -14,7 +14,7 @@
       "val": {
         "category": "Frameworks & Libraries",
         "items": ["React", "Node.js", "Express.js", "Tailwind CSS"],
-        "level": [3, 2, 4, 1],
+        "level": [4, 3, 3, 3],
         "skillFruits": [
           "react.png",
           "nodejs.png",
@@ -28,7 +28,7 @@
       "val": {
         "category": "Tools & Technologies",
         "items": ["Git", "GitHub", "Selenium", "Cucumber", "MongoDB", "MySQL"],
-        "level": [3, 2, 4, 1, 4, 5],
+        "level": [3, 2, 4, 3, 3, 3],
         "skillFruits": ["gng.svg", "snc.png", "mb.webp", "msql.png"]
       }
     }
