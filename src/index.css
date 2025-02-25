@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@keyframes moveCloud1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-20vw);
+  }
+  50% {
+    transform: translateX(-50vw);
+  }
+  75% {
+    transform: translateX(-80vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes moveCloud2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10vw);
+  }
+  50% {
+    transform: translateX(-40vw);
+  }
+  75% {
+    transform: translateX(-70vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes moveCloud3 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10vw);
+  }
+  50% {
+    transform: translateX(-30vw);
+  }
+  75% {
+    transform: translateX(-60vw);
+  }
+  100% {
+    transform: translateX(-120vw);
+  }
+}
+
+.animate-cloud-1 {
+  animation: moveCloud1 80s linear infinite;
+}
+
+.animate-cloud-2 {
+  animation: moveCloud2 100s linear infinite;
+}
+
+.animate-cloud-3 {
+  animation: moveCloud3 80s linear infinite;
+}

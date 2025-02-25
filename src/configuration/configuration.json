@@ -1,0 +1,100 @@
+{
+  "skills": [
+    {
+      "id": "Programming",
+      "val": {
+        "category": "Programming & Scripting",
+        "items": ["JavaScript (ES6+)", "Java", "HTML", "CSS"],
+        "level": [3, 2, 4, 1],
+        "skillFruits": ["jss.png", "java.png", "html.png", "css.png"]
+      }
+    },
+    {
+      "id": "Frameworks",
+      "val": {
+        "category": "Frameworks & Libraries",
+        "items": ["React", "Node.js", "Express.js", "Tailwind CSS"],
+        "level": [3, 2, 4, 1],
+        "skillFruits": [
+          "react.png",
+          "nodejs.png",
+          "express-js.png",
+          "tailwind.png"
+        ]
+      }
+    },
+    {
+      "id": "Tools",
+      "val": {
+        "category": "Tools & Technologies",
+        "items": ["Git", "GitHub", "Selenium", "Cucumber", "MongoDB", "MySQL"],
+        "level": [3, 2, 4, 1, 4, 5],
+        "skillFruits": ["gng.svg", "snc.png", "mb.webp", "msql.png"]
+      }
+    }
+  ],
+  "experience": [
+    {
+      "id": "experience-1",
+      "item": "Intern",
+      "time": "May 2024 - Nov 2024",
+      "vals": [
+        "Frontend Developer (React): Built a responsive React dashboard with reusable components, improving data visualization and user interaction.",
+        "Automation Tester: Automated test cases with Selenium and Cucumber, enhancing test coverage and framework maintainability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "education-1",
+      "items": "Bachelor of Technology in Information Technology",
+      "time": "Nov' 2020 - Jun' 2024",
+      "vals": ["Meghnad Saha Institute of Technology", "CGPA: 9.0"]
+    },
+    {
+      "id": "education-2",
+      "items": "Indian School Certificate (ISC)",
+      "time": "April' 2017 - March' 2019",
+      "vals": ["Vidya Niketan School", "Percentage: 81.4%"]
+    },
+    {
+      "id": "education-3",
+      "items": " Indian Certificate of Secondary Education (ICSE)",
+      "time": "till 2017",
+      "vals": ["Vidya Niketan School", "Percentage: 80.2%"]
+    }
+  ],
+  "about": {
+    "intro": [
+      "Expertise in full-stack development, proficient in building responsive front-end applications with React, and scalable backends using Node and Express.",
+      "Skilled in test automation with Java, Selenium, and Cucumber using the BDD framework. Experienced in building efficient automated test scripts and frameworks to ensure high-quality software."
+    ],
+    "personal": " I’m passionate about coding and love the thrill of creating something new. I enjoy building applications because I get to see the impact of my work come to life. My 7 months as an Automation Tester gave me valuable insights into building reliable, high-quality software. When I’m not immersed in tech, you’ll often find me playing cricket or exploring new ways to stay creative and active."
+  },
+  "work": {
+     "auth":{
+      "id":"auth",
+      "name": "Authentication App",
+     "contributor": "Siddharth",
+      "technology": "React,React,React,React,React,React",
+       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" },
+        "todo":{
+          "id":"to-do",
+          "name": "To Do App",
+       "contributor": "Siddharth",
+        "technology": "React,React,React,React,React,React",
+         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" },
+         "crm":{
+          "id":"crm",
+          "name": "Customer Relationship Management",
+     "contributor": "crm",
+      "technology": "React,React,React,React,React,React",
+       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" },
+        "work1":{
+          "id":"work1",
+          "name": "Work-1 App",
+     "contributor": "Siddharth",
+      "technology":"React,React,React,React,React,React",
+       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" }
+  }
+}
