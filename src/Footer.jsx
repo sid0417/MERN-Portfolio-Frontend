@@ -25,10 +25,10 @@ export default function Footer() {
 
                         {/* Contact & Resume Options */}
                         <div className="flex space-x-5">
-                            <a href="tel:+1234567890" className="text-gray-500 hover:scale-110">
+                            <a href="tel:9330112587" className="text-gray-500 hover:scale-110">
                                 <FiPhoneCall className="w-5 h-5 text-green-500" />
                             </a>
-                            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:scale-110">
+                            <a href="https://wa.me/9330112587" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:scale-110">
                                 <FaWhatsapp className="w-5 h-5 text-green-600" />
                             </a>
                             <a href="/resume.pdf" download className="text-gray-500 hover:scale-110">
