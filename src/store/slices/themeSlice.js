@@ -1,22 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
 import Cookies from "js-cookie";
 
-// Get initial theme from cookies (default to false if not set)
-const initialDarkMode = Cookies.get("darkMode") === "true"; // Convert string to boolean
+// Get initial theme from cookies, or default to dark (true) if not set
+const initialDarkMode = Cookies.get("darkMode") === "false" ? false : true; // Default to true if no cookie or cookie is not "false"
 
 const themeSlice = createSlice({
   name: "theme",
   initialState: {
-    darkMode: initialDarkMode, 
+    darkMode: initialDarkMode,
   },
   reducers: {
     toggleTheme: (state) => {
       state.darkMode = !state.darkMode;
-      Cookies.set("darkMode", state.darkMode, { expires: 7 }); // Store in cookies for 7 days
+      Cookies.set("darkMode", state.darkMode, { expires: 7 });
     },
   },
 });
-
 
 export const { toggleTheme } = themeSlice.actions;
 export default themeSlice.reducer;
