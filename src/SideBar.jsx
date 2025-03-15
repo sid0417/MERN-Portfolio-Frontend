@@ -13,7 +13,7 @@ const SideBar = ({ darkMode, isVisible, setIsVisible }) => {
 
   return (
     <div
-      className={`fixed top-36 right-0 h-64 w-36 shadow-lg transition-transform duration-300 z-10 p-8 text-lg
+      className={`fixed top-36 right-0 h-64 w-36 rounded-xl shadow-2xl transition-transform duration-300 z-10 p-8 text-lg
         ${
           darkMode ? "bg-dark-gradient text-light" : "bg-light-gradient text-dark"
         } ${isVisible ? "translate-x-0" : "translate-x-full"}`}
@@ -26,7 +26,7 @@ const SideBar = ({ darkMode, isVisible, setIsVisible }) => {
         {["Home", "About", "Skills", "Contact"].map((item, index) => (
           <Link
             key={index}
-            to={`/${item.toLowerCase()}`}
+            to={`/${item==='Home'?"":item.toLowerCase()}`}
             className={`px-6 py-1 font-semibold transition duration-300 ${
               darkMode ? "hover:text-[#4a59e0]" : "hover:text-[#60A5FA]"
             }`}
@@ -34,6 +34,7 @@ const SideBar = ({ darkMode, isVisible, setIsVisible }) => {
           >
             {item}
           </Link>
+          
         ))}
       </nav>
     </div>

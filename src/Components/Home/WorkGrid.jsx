@@ -36,7 +36,7 @@ const WorkGrid = ({ darkMode }) => {
                 {workItem.name}
               </div>
               <div className={`absolute 
-                  ${isLarge ? "top-[40%] sm:top-[55%] left-[50%] sm:left-[45%] scale:[180%]" : 
+                  ${isLarge ? "top-[40%] sm:top-[55%] left-[20%] sm:left-[45%] w-[150%] sm:w-auto" : 
                              "top-[30%] sm:top-[45%] left-[20%] sm:left-[25%] sm:w-[115%]"}`}>  
                 <img
                   src={`${workItem.image}`}

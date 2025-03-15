@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { FaBars } from "react-icons/fa6";
+import { FaBars, FaDownload } from "react-icons/fa6";
 import { useSelector } from "react-redux";
 import ModeChanger from "./Components/Theme/ModeChanger";
 import SideBar from "./SideBar";
@@ -25,7 +25,7 @@ const Header = () => {
           <div className="flex justify-between items-center mx-auto max-w-screen-xl">
             {/* Logo Section */}
             <Link to="/" className="flex items-center">
-              <div id="video" className="w-[10%] h-auto mx-auto ml-8">
+              <div id="video" className="sm:w-[10%] w-[35%] h-auto mx-auto ml-8">
                 <video
                   src={`${
                     darkMode ? "/logoDarkHead.mp4" : "/logoLightHead.mp4"
@@ -83,12 +83,22 @@ const Header = () => {
                   </Link>
                 </li>
               </ul>
+              
+              {/* Resume Button - Visible on all screens with download icon */}
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold px-4 py-2 rounded-lg shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg"
+              >
+                <FaDownload /> Resume
+              </a>
 
               {/* Mode Changer */}
               <ModeChanger />
 
               {/* Sidebar Toggle Button (Visible on small screens) */}
-             <button
+              <button
                 className="md:hidden px-4 py-2 rounded"
                 onClick={() => setIsSidebarVisible((prev) => !prev)}
               >

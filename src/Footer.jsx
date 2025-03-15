@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { FiPhoneCall } from "react-icons/fi";
+import { FiPhoneCall, FiMail } from "react-icons/fi";
 import { FaWhatsapp, FaDownload, FaInstagram, FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
@@ -26,13 +26,16 @@ export default function Footer() {
                         {/* Contact & Resume Options */}
                         <div className="flex space-x-5">
                             <a href="tel:9330112587" className="text-gray-500 hover:scale-110">
-                                <FiPhoneCall className="w-5 h-5 text-green-300" />
+                                <FiPhoneCall className="w-5 h-5 text-green-600" />
                             </a>
                             <a href="https://wa.me/9330112587" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:scale-110">
-                                <FaWhatsapp className="w-5 h-5 text-green-300" />
+                                <FaWhatsapp className="w-5 h-5 text-green-600" />
+                            </a>
+                            <a href="mailto:siddharthroy1704@gmail.com" className="text-gray-500 hover:scale-110">
+                                <FiMail className="w-5 h-5 text-red-600" />
                             </a>
                             <a href="/resume.pdf" download className="text-gray-500 hover:scale-110">
-                                <FaDownload className="w-5 h-5 text-blue-300" />
+                                <FaDownload className="w-5 h-5 text-blue-600" />
                             </a>
                         </div>
                     </div>

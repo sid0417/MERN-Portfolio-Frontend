@@ -13,11 +13,12 @@
       "id": "Frameworks",
       "val": {
         "category": "Frameworks & Libraries",
-        "items": ["React", "Node.js", "Express.js", "Tailwind CSS"],
-        "level": [4, 3, 3, 3],
+        "items": ["React","Nextjs", "Node.js", "Express.js", "Tailwind CSS"],
+        "level": [4,3, 3, 3, 3],
         "skillFruits": [
           "react.png",
           "nodejs.png",
+          "next.png",
           "express-js.png",
           "tailwind.png"
         ]
@@ -95,25 +96,38 @@
       "description": "The CRM-Frontend is a sleek, modern, and fully functional React Admin Dashboard designed to streamline customer relationship management. Packed with a feature-rich interface, it provides an intuitive and dynamic user experience while ensuring scalability, high performance, and maintainability.\n🔥 Key Features:\n✔️ Dashboard Overview – Gain key insights and analytics at a glance\n✔️ Kanban Board – Organize and track tasks efficiently\n✔️ Calendar Integration – Plan and manage events seamlessly\n✔️ WYSIWYG Editor – Create and edit content with a rich-text editor\n✔️ Color Picker – Customize themes with a built-in color selection tool\n✔️ Advanced Charts – Seven interactive and insightful data visualizations\n✔️ State Management with Redux Toolkit – Manage global state with ease"
     },
 
-    "todo": {
+    "vidtube": {
+    "id": "vidtube",
+    "name": "VidTube - A YouTube Clone",
+    "liveDemo": "https://vidtube-ten.vercel.app/",
+    "github": "https://github.com/sid0417/youtube-clone-react",
+    "contributor": "Siddharth Roy",
+    "image": "/vidtube.png",
+    "video":"/vidtube.mp4",
+    "technology": "React, Vite, YouTube Data API, Axios, React Router",
+    "description": "VidTube is a YouTube clone application developed using React and Vite. It leverages the YouTube Data API to fetch and display video content, allowing users to search for videos, view video details, and watch videos directly within the application. The project also incorporates features like responsive design and intuitive navigation to enhance user experience."
+  },
+
+
+
+    "weatherapp": {
+      "id": "weatherapp",
+      "name": "Weather App",
+      "liveDemo": "https://sid0417.github.io/projectWeatherApp/",
+      "github": "https://github.com/sid0417/projectWeatherApp",
+      "contributor": "Siddharth",
+      "image": "/weatherapp.png",
+      "video":"/weatherapp.mp4",
+      "technology": "JavaScript, CSS, HTML",
+      "description": "A dynamic weather application that displays the weather of different cities. It provides users with real-time weather information, enhancing their ability to plan and adapt to various weather conditions."
+    },   
+     "todo": {
       "id": "to-do",
       "name": "AI Powered SAAS App",
       "contributor": "Siddharth",
       "image": "pimage.png",
       "technology": "React,React,React,React,React,React",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!"
-    },
-
-    "work1": {
-      "id": "work1",
-      "name": "Weather App",
-      "liveDemo": "https://sid0417.github.io/projectWeatherApp/",
-      "github": "https://github.com/sid0417/projectWeatherApp",
-      "contributor": "Siddharth",
-      "image": "weatherapp.png",
-      "video":"/weatherapp.mp4",
-      "technology": "JavaScript, CSS, HTML",
-      "description": "A dynamic weather application that displays the weather of different cities. It provides users with real-time weather information, enhancing their ability to plan and adapt to various weather conditions."
     }
   }
 }
