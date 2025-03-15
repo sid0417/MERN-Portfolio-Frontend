@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Content from "./Content";
 import { useSelector } from "react-redux";
-import data from "../../configuration/configuration.json"
+import data from "../../configuration/configuration.json";
 
 function About() {
   const darkMode = useSelector((store) => store.theme.darkMode);
@@ -44,7 +44,11 @@ function About() {
   };
 
   return (
-    <div className={`${darkMode ? "bg-dark text-light" : "bg-light text-dark"}`}>
+    <div
+      className={`${
+        darkMode ? "bg-dark-gradient text-light" : "bg-light-gradient text-dark"
+      }`}
+    >
       <div className="relative flex p-4 justify-center items-center">
         {/* Typing Animation */}
         <span
@@ -64,7 +68,7 @@ function About() {
       </div>
 
       <div className="flex flex-col md:flex-row items-center md:justify-center p-4 md:p-8 sm:py-6 h-auto md:h-screen space-y-6 md:space-y-0">
-        <div id="left" className="flex-shrink-0 pr-6">
+        <div id="left" className="flex-shrink-0 pr-6 ">
           <img
             src={`${darkMode ? "image-dark.png" : "image.png"}`}
             alt="profile"
@@ -74,7 +78,7 @@ function About() {
         <div
           id="right"
           className={`${
-            darkMode ? "bg-secondaryDark" : "bg-secondaryLight"
+            darkMode ? "bg-dark-gradient text-light" : "bg-light-gradient text-dark"
           } flex-grow pl-8 rounded-lg shadow-lg p-4 space-y-4`}
         >
           {/* Heading */}
@@ -89,14 +93,12 @@ function About() {
           <div id="body" className="space-y-4">
             <p className="text-xl font-semibold">I am a Software Engineer:</p>
             <ul className="list-disc pl-6 space-y-3">
-            {data.about.intro.map((val,index)=>(
-              <li key={index}>{val}</li>
-            ))}
+              {data.about.intro.map((val, index) => (
+                <li key={index}>{val}</li>
+              ))}
             </ul>
             {/* Personal Paragraph */}
-            <p className="text-md leading-relaxed">
-             {data.about.personal}
-            </p>
+            <p className="text-md leading-relaxed">{data.about.personal}</p>
           </div>
         </div>
       </div>

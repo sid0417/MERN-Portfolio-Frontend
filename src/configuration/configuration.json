@@ -72,29 +72,48 @@
     "personal": " I’m passionate about coding and love the thrill of creating something new. I enjoy building applications because I get to see the impact of my work come to life. My 7 months as an Automation Tester gave me valuable insights into building reliable, high-quality software. When I’m not immersed in tech, you’ll often find me playing cricket or exploring new ways to stay creative and active."
   },
   "work": {
-     "auth":{
-      "id":"auth",
-      "name": "Authentication App",
-     "contributor": "Siddharth",
+    "auth": {
+      "id": "auth",
+      "name": "Authentication System",
+      "liveDemo": "https://auth-ease-ten.vercel.app/",
+      "github": "https://github.com/sid0417/AuthEase",
+      "video": "/auth.mp4",
+      "image": "auth.png",
+      "contributor": "Siddharth",
+      "technology": "Next.js, Node.js, Express.js, MongoDB, Tailwind CSS, Mailtrap",
+      "description": "🚀 A secure and scalable authentication system with robust features:\n\n✅ **User Authentication** – Secure registration & login\n✅ **Password Reset & Email Verification** – Ensures account security\n✅ **Session Management** – Seamless user experience\n✅ **Modular Backend Architecture** – Built for efficiency & reliability\n\nThis system is designed to provide a seamless and secure authentication experience with modern web technologies."
+    },
+    "crm": {
+      "id": "crm",
+      "name": "CRM Dashboard",
+      "liveDemo": "https://sidsync-lake.vercel.app/",
+      "github": "https://github.com/sid0417/CRM-Frontend",
+      "video": "/crm.mp4",
+      "contributor": "Siddharth",
+      "image": "CRM.png",
+      "technology": "React, Redux Toolkit, Vite, Tailwind CSS, React Router, Syncfusion Components",
+      "description": "The CRM-Frontend is a sleek, modern, and fully functional React Admin Dashboard designed to streamline customer relationship management. Packed with a feature-rich interface, it provides an intuitive and dynamic user experience while ensuring scalability, high performance, and maintainability.\n🔥 Key Features:\n✔️ Dashboard Overview – Gain key insights and analytics at a glance\n✔️ Kanban Board – Organize and track tasks efficiently\n✔️ Calendar Integration – Plan and manage events seamlessly\n✔️ WYSIWYG Editor – Create and edit content with a rich-text editor\n✔️ Color Picker – Customize themes with a built-in color selection tool\n✔️ Advanced Charts – Seven interactive and insightful data visualizations\n✔️ State Management with Redux Toolkit – Manage global state with ease"
+    },
+
+    "todo": {
+      "id": "to-do",
+      "name": "AI Powered SAAS App",
+      "contributor": "Siddharth",
+      "image": "pimage.png",
       "technology": "React,React,React,React,React,React",
-       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" },
-        "todo":{
-          "id":"to-do",
-          "name": "To Do App",
-       "contributor": "Siddharth",
-        "technology": "React,React,React,React,React,React",
-         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" },
-         "crm":{
-          "id":"crm",
-          "name": "Customer Relationship Management",
-     "contributor": "crm",
-      "technology": "React,React,React,React,React,React",
-       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" },
-        "work1":{
-          "id":"work1",
-          "name": "Work-1 App",
-     "contributor": "Siddharth",
-      "technology":"React,React,React,React,React,React",
-       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!" }
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusantium tempora dolor eveniet sequi debitis quaerat qui magni eum ex consequatur hic, doloribus ab id dolores iste? Repellat maiores magnam placeat, illo tempore possimus necessitatibus perspiciatis quae recusandae corporis aliquid repudiandae asperiores voluptates sint accusamus, deserunt quasi amet doloremque quibusdam cum quos quia. Quam et omnis necessitatibus aperiam rem doloribus. Tenetur quidem provident architecto!"
+    },
+
+    "work1": {
+      "id": "work1",
+      "name": "Weather App",
+      "liveDemo": "https://sid0417.github.io/projectWeatherApp/",
+      "github": "https://github.com/sid0417/projectWeatherApp",
+      "contributor": "Siddharth",
+      "image": "weatherapp.png",
+      "video":"/weatherapp.mp4",
+      "technology": "JavaScript, CSS, HTML",
+      "description": "A dynamic weather application that displays the weather of different cities. It provides users with real-time weather information, enhancing their ability to plan and adapt to various weather conditions."
+    }
   }
 }

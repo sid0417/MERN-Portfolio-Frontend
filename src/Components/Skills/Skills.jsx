@@ -16,17 +16,17 @@ const Skills = () => {
 
   return (
     <div
-      className={`font-poppins py-2 ${darkMode ? "bg-dark text-light" : "bg-light text-dark"}`}
+      className={`font-poppins py-2 ${
+        darkMode ? "bg-dark-gradient text-light" : "bg-light-gradient text-dark"
+      }`}
     >
-      <h1 className="text-4xl font-bold mt-2 ml-2 mb-2">
-        My Skills
-      </h1>
+      <h1 className="text-4xl font-bold mt-2 ml-2 mb-2">My Skills</h1>
 
-      <div className="sm:grid sm:grid-rows-[auto_auto] sm:mb-[-3.5%] min-h-screen" id="parent-1">
-
-
+      <div
+        className="sm:grid sm:grid-rows-[auto_auto] sm:mb-[-3.5%] min-h-screen"
+        id="parent-1"
+      >
         <div className="md:grid md:grid-cols-[3fr_2fr]" id="child-1">
-
           <div className="md:grid md:grid-rows-2" id="gc-1">
             <div className="ml-2 md:grid md:grid-cols-3">
               {/* Skill Selection Buttons */}
@@ -53,13 +53,18 @@ const Skills = () => {
             </div>
             <div className="hidden md:block">
               {selectedSkill && (
-                <SkillDetailLap skillData={selectedSkill.val} darkMode={darkMode} />
+                <SkillDetailLap
+                  skillData={selectedSkill.val}
+                  darkMode={darkMode}
+                />
               )}
             </div>
           </div>
 
-          <div className="grid grid-rows-[auto_auto] gap-y-6 sm:flex sm:flex-row" id="gc-2">
-
+          <div
+            className="grid grid-rows-[auto_auto] gap-y-6 sm:flex sm:flex-row"
+            id="gc-2"
+          >
             <div className="justify-items-center" id="gc-2-c-1">
               <div className="relative">
                 <img
@@ -72,23 +77,24 @@ const Skills = () => {
               <img src="groundskills.png" alt="" className="md:hidden mt-6" />
             </div>
 
-            <div className="sm:flex sm:flex-row md:hidden p-4 hover:scale-110 duration-300 ease-in-out" id="gc-2-c-2">
-              {selectedSkill && <SkillDetails skillData={selectedSkill.val} darkMode={darkMode}/>}
+            <div
+              className="sm:flex sm:flex-row md:hidden p-4 hover:scale-110 duration-300 ease-in-out"
+              id="gc-2-c-2"
+            >
+              {selectedSkill && (
+                <SkillDetails
+                  skillData={selectedSkill.val}
+                  darkMode={darkMode}
+                />
+              )}
             </div>
-
           </div>
-
         </div>
-
 
         <div className="hidden md:block w-auto h-auto mt-[-4%]" id="child-2">
           <img src="groundskills.png" alt="" />
         </div>
-
-        
       </div>
-
-
     </div>
   );
 };

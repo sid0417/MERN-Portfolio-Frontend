@@ -6,7 +6,9 @@ const NotFound = () => {
 
   return (
     <div
-      className={`w-screen h-screen flex justify-center items-center ${darkMode ? "bg-dark" : "bg-light"}`}
+      className={`w-screen h-screen flex justify-center items-center ${
+        darkMode ? "bg-dark-gradient" : "bg-light-gradient"
+      }`}
     >
       <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col items-center text-center w-96 sm:w-[30rem] text-dark">
         <img src="/404.png" alt="Tree" className="w-48 h-48 mb-4" />

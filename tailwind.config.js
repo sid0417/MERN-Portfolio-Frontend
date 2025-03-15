@@ -16,9 +16,13 @@ export default {
       },
       backgroundColor: {
         dark: "#111827", 
-        secondaryDark: "#1E293B", // Or #1F2937 (a bit lighter)
+        secondaryDark: "#1A2332", // Or #1F2937 (a bit lighter)
         light: "#EBF5FF",
-        secondaryLight: "#FFFFFF" // Pure white for contrast in light mode
+        secondaryLight: "#B0D8FF" // Pure white for contrast in light mode
+      },
+      backgroundImage: {
+        'dark-gradient': "linear-gradient(to bottom, #111827, #000000)", 
+        'light-gradient': "linear-gradient(to bottom, #EBF5FF, #5080A8)",
       },
       
       textColor: {

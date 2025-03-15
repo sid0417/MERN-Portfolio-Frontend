@@ -1,10 +1,8 @@
 import Cloud from "../Theme/Cloud";
 import Star from "../Theme/Star";
 import Leaf from "./Leaf";
-import SmallLeft from "./SmallLeft";
-
-import SmallRight from "./SmallRight";
 import { useSelector } from "react-redux";
+import WorkGrid from "./WorkGrid";
 
 function Home() {
   const darkMode = useSelector((store) => store.theme.darkMode);
@@ -14,7 +12,7 @@ function Home() {
       {!darkMode && <Cloud />}
 
       <div
-        className={`${darkMode ? "bg-dark text-light" : "bg-light text-dark"}`}
+        className={`${darkMode ?  "bg-dark-gradient text-light" : "bg-light-gradient text-dark"}`}
       >
         <div className="h-screen w-full transition-colors duration-500 relative flex justify-center items-center overflow-hidden">
           {darkMode && <Star />}
@@ -38,8 +36,7 @@ function Home() {
             My Work
           </div>
           <div className="mt-[2%]">
-            <SmallLeft darkMode={darkMode} />
-            <SmallRight darkMode={darkMode} />
+            <WorkGrid darkMode={darkMode}/>
           </div>
         </div>
       </div>

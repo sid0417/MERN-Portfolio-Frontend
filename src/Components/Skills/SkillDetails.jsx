@@ -1,7 +1,11 @@
 /* eslint-disable react/prop-types */
 const SkillDetails = ({ skillData, darkMode }) => {
   return (
-    <div className={`${darkMode ? "bg-dark text-light" : "bg-light text-dark"} px-4  border rounded-lg shadow-xl `}>
+    <div
+      className={`${
+        darkMode ? "text-light" : "text-dark"
+      } px-4  border rounded-lg shadow-xl `}
+    >
       <h2 className="font-bold text-xl mb-2 ">{skillData.category}</h2>
       <ul className="list-disc list-inside px-4">
         <div className="flex flex-col space-y-2">

@@ -8,7 +8,7 @@ export default function Footer() {
     const darkMode = useSelector((store) => store.theme.darkMode);
 
     return (
-        <div className={`${darkMode ? "bg-dark text-light" : "bg-light text-dark"}`}>
+        <div className={`${darkMode ? "bg-[#000000] text-light" : "bg-[#5080A8] text-dark"}`}>
             <footer className="border-t">
                 <div className="mx-auto w-full max-w-screen-xl p-4 lg:py-6">
                     <div className="md:flex md:justify-between items-center">
@@ -26,13 +26,13 @@ export default function Footer() {
                         {/* Contact & Resume Options */}
                         <div className="flex space-x-5">
                             <a href="tel:9330112587" className="text-gray-500 hover:scale-110">
-                                <FiPhoneCall className="w-5 h-5 text-green-500" />
+                                <FiPhoneCall className="w-5 h-5 text-green-300" />
                             </a>
                             <a href="https://wa.me/9330112587" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:scale-110">
-                                <FaWhatsapp className="w-5 h-5 text-green-600" />
+                                <FaWhatsapp className="w-5 h-5 text-green-300" />
                             </a>
                             <a href="/resume.pdf" download className="text-gray-500 hover:scale-110">
-                                <FaDownload className="w-5 h-5 text-blue-600" />
+                                <FaDownload className="w-5 h-5 text-blue-300" />
                             </a>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ export default function Footer() {
                     </div>
 
                     {/* Copyright Text */}
-                    <div className="text-center text-sm text-gray-500 mt-4">
+                    <div className="text-center text-sm text-white mt-4">
                         © 2025 <a href="https://yourwebsite.com/" className="hover:underline">siddharthroy</a>. All Rights Reserved.
                     </div>
                 </div>

@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { FaArrowUp } from "react-icons/fa";  // Import the arrow icon
+import { useSelector } from "react-redux";
 
 const ScrollUp = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const darkMode = useSelector((store) => store.theme.darkMode);
 
   // Show button when the user scrolls down
   const checkScrollPosition = () => {
@@ -36,7 +38,7 @@ const ScrollUp = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors"
+          className={`fixed bottom-5 right-5 ${darkMode?"bg-[#111827]":"bg-[#5080A8]"} text-white p-3 rounded-full shadow-lg transition-colors`}
         >
           <FaArrowUp size={24} />
         </button>
